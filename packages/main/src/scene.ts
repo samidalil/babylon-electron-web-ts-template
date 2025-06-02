@@ -77,9 +77,6 @@ export function startRenderLoop(engine: Engine, scene: Scene): void {
     scene.render();
   });
 
-  console.log("Jai mange d asasgaasds");
-  console.log("Lourd");
-
   window.addEventListener("resize", () => {
     engine.resize();
   });

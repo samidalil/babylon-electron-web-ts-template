@@ -5,15 +5,8 @@
     "rootDir": "./src",
     "composite": true
   },
-  "watchOptions": {
-    "watchFile": "dynamicprioritypolling",
-    "watchDirectory": "dynamicprioritypolling",
-    // If the above aren't helping significantly, you could try simpler polling,
-    // but this uses more CPU.
-    // "watchFile": "fixedPollingInterval",
-    // "watchDirectory": "fixedPollingInterval",
-    // "pollingInterval": 1000 // milliseconds
-  },
-  "include": ["src/**/*"],
+  "include": [
+    "src/**/*"
+  ],
   "references": []
 }
