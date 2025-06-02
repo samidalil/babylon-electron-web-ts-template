@@ -7,5 +7,5 @@
     "jsx": "react-jsx" // Or "preserve", Vite requires one
   },
   "include": ["src"],
-  "references": [{ "path": "../renderer-shared" }]
+  "references": [{ "path": "../main" }]
 }

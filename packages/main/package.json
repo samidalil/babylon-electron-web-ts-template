@@ -1,5 +1,5 @@
 {
-  "name": "@babylon-universal/renderer-shared",
+  "name": "@ws/main",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

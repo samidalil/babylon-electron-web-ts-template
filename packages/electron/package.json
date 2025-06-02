@@ -1,5 +1,5 @@
 {
-  "name": "@babylon-universal/electron-app",
+  "name": "@ws/electron",
   "version": "1.0.0",
   "description": "Babylon.js Electron App",
   "main": "dist_main/main.js",
@@ -19,8 +19,8 @@
     "typecheck:renderer": "tsc --noEmit -p tsconfig.renderer.json"
   },
   "dependencies": {
-    "@babylon-universal/renderer-shared": "workspace:^",
-    "@babylonjs/core": "^7.10.0"
+    "@babylonjs/core": "^7.10.0",
+    "@ws/main": "workspace:^"
   },
   "devDependencies": {
     "@types/node": "^20.11.0",

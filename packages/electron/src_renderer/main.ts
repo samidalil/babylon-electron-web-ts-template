@@ -1,8 +1,5 @@
 import { Engine } from "@babylonjs/core";
-import {
-  createScene,
-  startRenderLoop,
-} from "@babylon-universal/renderer-shared";
+import { createScene, startRenderLoop } from "@ws/main";
 
 // Example of using the exposed API from preload
 async function logAppVersion() {

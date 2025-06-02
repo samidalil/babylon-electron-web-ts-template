@@ -1,16 +1,17 @@
 {
-  "name": "babylon-universal-app-root",
+  "name": "babylon-electron-web-ts-template",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "dev:web": "yarn workspace @babylon-universal/web-app dev",
-    "build:web": "yarn workspace @babylon-universal/web-app build",
-    "dev:electron": "yarn workspace @babylon-universal/electron-app dev",
-    "build:electron": "yarn workspace @babylon-universal/electron-app build",
-    "start:electron": "yarn workspace @babylon-universal/electron-app start",
-    "build:shared": "yarn workspace @babylon-universal/renderer-shared build",
+    "dev:web": "yarn workspace @ws/web dev",
+    "build:web": "yarn workspace @ws/web build",
+    "dev:electron": "yarn workspace @ws/electron dev",
+    "build:electron": "yarn workspace @ws/electron build",
+    "start:electron": "yarn workspace @ws/electron start",
+    "dev:main": "yarn workspace @ws/main dev",
+    "build:main": "yarn workspace @ws/main build",
     "lint": "yarn workspaces foreach -Apt run typecheck"
   },
   "devDependencies": {

@@ -1,5 +1,5 @@
 {
-  "name": "@babylon-universal/web-app",
+  "name": "@ws/web",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -10,8 +10,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@babylon-universal/renderer-shared": "workspace:^",
-    "@babylonjs/core": "^7.10.0"
+    "@babylonjs/core": "^7.10.0",
+    "@ws/main": "workspace:^"
   },
   "devDependencies": {
     "rimraf": "^5.0.7",

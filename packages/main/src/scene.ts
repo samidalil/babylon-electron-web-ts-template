@@ -21,7 +21,7 @@ export function createScene(engine: Engine, canvas: HTMLCanvasElement): Scene {
     new Vector3(0, 0, 0),
     scene
   );
-  camera.setTarget(Vector3.Zero());
+  camera.setTarget(Vector3.One());
   camera.attachControl(canvas, true);
 
   const light = new HemisphericLight("light1", new Vector3(0, 1, 0), scene);
@@ -76,6 +76,9 @@ export function startRenderLoop(engine: Engine, scene: Scene): void {
   engine.runRenderLoop(() => {
     scene.render();
   });
+
+  console.log("Jai mange d asasgaasds");
+  console.log("Lourd");
 
   window.addEventListener("resize", () => {
     engine.resize();

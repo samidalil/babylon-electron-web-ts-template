@@ -5,44 +5,6 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@babylon-universal/electron-app@workspace:packages/electron-app":
-  version: 0.0.0-use.local
-  resolution: "@babylon-universal/electron-app@workspace:packages/electron-app"
-  dependencies:
-    "@babylon-universal/renderer-shared": "workspace:^"
-    "@babylonjs/core": "npm:^7.10.0"
-    "@types/node": "npm:^20.11.0"
-    electron: "npm:^30.0.2"
-    rimraf: "npm:^5.0.7"
-    typescript: "npm:^5.4.5"
-    vite: "npm:^5.2.11"
-  languageName: unknown
-  linkType: soft
-
-"@babylon-universal/renderer-shared@workspace:^, @babylon-universal/renderer-shared@workspace:packages/renderer-shared":
-  version: 0.0.0-use.local
-  resolution: "@babylon-universal/renderer-shared@workspace:packages/renderer-shared"
-  dependencies:
-    "@babylonjs/core": "npm:^7.10.0"
-    "@babylonjs/loaders": "npm:^7.10.0"
-    "@babylonjs/materials": "npm:^7.10.0"
-    rimraf: "npm:^5.0.7"
-    typescript: "npm:^5.4.5"
-  languageName: unknown
-  linkType: soft
-
-"@babylon-universal/web-app@workspace:packages/web-app":
-  version: 0.0.0-use.local
-  resolution: "@babylon-universal/web-app@workspace:packages/web-app"
-  dependencies:
-    "@babylon-universal/renderer-shared": "workspace:^"
-    "@babylonjs/core": "npm:^7.10.0"
-    rimraf: "npm:^5.0.7"
-    typescript: "npm:^5.4.5"
-    vite: "npm:^5.2.11"
-  languageName: unknown
-  linkType: soft
-
 "@babylonjs/core@npm:^7.10.0":
   version: 7.54.3
   resolution: "@babylonjs/core@npm:7.54.3"
@@ -528,6 +490,44 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ws/electron@workspace:packages/electron":
+  version: 0.0.0-use.local
+  resolution: "@ws/electron@workspace:packages/electron"
+  dependencies:
+    "@babylonjs/core": "npm:^7.10.0"
+    "@types/node": "npm:^20.11.0"
+    "@ws/main": "workspace:^"
+    electron: "npm:^30.0.2"
+    rimraf: "npm:^5.0.7"
+    typescript: "npm:^5.4.5"
+    vite: "npm:^5.2.11"
+  languageName: unknown
+  linkType: soft
+
+"@ws/main@workspace:^, @ws/main@workspace:packages/main":
+  version: 0.0.0-use.local
+  resolution: "@ws/main@workspace:packages/main"
+  dependencies:
+    "@babylonjs/core": "npm:^7.10.0"
+    "@babylonjs/loaders": "npm:^7.10.0"
+    "@babylonjs/materials": "npm:^7.10.0"
+    rimraf: "npm:^5.0.7"
+    typescript: "npm:^5.4.5"
+  languageName: unknown
+  linkType: soft
+
+"@ws/web@workspace:packages/web":
+  version: 0.0.0-use.local
+  resolution: "@ws/web@workspace:packages/web"
+  dependencies:
+    "@babylonjs/core": "npm:^7.10.0"
+    "@ws/main": "workspace:^"
+    rimraf: "npm:^5.0.7"
+    typescript: "npm:^5.4.5"
+    vite: "npm:^5.2.11"
+  languageName: unknown
+  linkType: soft
+
 "abbrev@npm:^3.0.0":
   version: 3.0.1
   resolution: "abbrev@npm:3.0.1"
@@ -572,9 +572,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babylon-universal-app-root@workspace:.":
+"babylon-electron-web-ts-template@workspace:.":
   version: 0.0.0-use.local
-  resolution: "babylon-universal-app-root@workspace:."
+  resolution: "babylon-electron-web-ts-template@workspace:."
   dependencies:
     rimraf: "npm:^5.0.7"
     typescript: "npm:^5.4.5"
