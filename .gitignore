@@ -123,5 +123,16 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
+# Yarn Berry
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Yarn PnP
+.pnp.*
+
 # Optional PNPM lockfile (if you were to switch back or someone else uses it)
 # pnpm-lock.yaml

@@ -16,10 +16,4 @@ export default defineConfig({
       },
     },
   },
-  resolve: {
-    // Usually not needed if workspace linking and tsconfig paths work
-    // alias: {
-    //   "@renderer-shared": path.resolve(__dirname, "../renderer-shared/src"),
-    // },
-  },
 });

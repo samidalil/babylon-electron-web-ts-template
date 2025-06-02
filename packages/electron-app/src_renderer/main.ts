@@ -1,9 +1,8 @@
 import { Engine } from "@babylonjs/core";
-// Using path alias from tsconfig.base.json, ensure Vite/TS can resolve this
 import {
   createScene,
   startRenderLoop,
-} from "@babylon-universal/renderer-shared/scene";
+} from "@babylon-universal/renderer-shared";
 
 // Example of using the exposed API from preload
 async function logAppVersion() {

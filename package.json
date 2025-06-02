@@ -11,11 +11,11 @@
     "build:electron": "yarn workspace @babylon-universal/electron-app build",
     "start:electron": "yarn workspace @babylon-universal/electron-app start",
     "build:shared": "yarn workspace @babylon-universal/renderer-shared build",
-    "typecheck": "yarn workspaces foreach -pt run typecheck"
+    "lint": "yarn workspaces foreach -Apt run typecheck"
   },
   "devDependencies": {
-    "typescript": "^5.4.5",
-    "rimraf": "^5.0.7"
+    "rimraf": "^5.0.7",
+    "typescript": "^5.4.5"
   },
   "engines": {
     "node": ">=18.0.0",

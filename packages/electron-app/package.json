@@ -19,14 +19,14 @@
     "typecheck:renderer": "tsc --noEmit -p tsconfig.renderer.json"
   },
   "dependencies": {
-    "@babylonjs/core": "^7.10.0",
-    "@babylon-universal/renderer-shared": "workspace:*"
+    "@babylon-universal/renderer-shared": "workspace:^",
+    "@babylonjs/core": "^7.10.0"
   },
   "devDependencies": {
+    "@types/node": "^20.11.0",
     "electron": "^30.0.2",
-    "typescript": "^5.4.5",
-    "vite": "^5.2.11",
     "rimraf": "^5.0.7",
-    "@types/node": "^20.11.0"
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
   }
 }

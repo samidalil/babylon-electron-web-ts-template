@@ -1,5 +1,8 @@
 import { Engine } from "@babylonjs/core";
-import { createScene, startRenderLoop } from "@renderer-shared/scene";
+import {
+  createScene,
+  startRenderLoop,
+} from "@babylon-universal/renderer-shared";
 
 const canvas = document.getElementById("renderCanvas") as HTMLCanvasElement;
 if (!canvas) throw new Error("Render canvas not found!");

@@ -17,8 +17,5 @@
     "noUnusedParameters": true,
     "composite": true,
     "baseUrl": ".",
-    "paths": {
-      "@renderer-shared/*": ["packages/renderer-shared/src/*"]
-    }
   }
 }
