@@ -1,0 +1,24 @@
+{
+  "name": "babylon-universal-app-root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "yarn workspace @babylon-universal/web-app dev",
+    "build:web": "yarn workspace @babylon-universal/web-app build",
+    "dev:electron": "yarn workspace @babylon-universal/electron-app dev",
+    "build:electron": "yarn workspace @babylon-universal/electron-app build",
+    "start:electron": "yarn workspace @babylon-universal/electron-app start",
+    "build:shared": "yarn workspace @babylon-universal/renderer-shared build",
+    "typecheck": "yarn workspaces foreach -pt run typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "rimraf": "^5.0.7"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "yarn": ">=1.22.0"
+  }
+}

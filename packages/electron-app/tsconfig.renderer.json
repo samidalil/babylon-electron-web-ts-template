@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist_renderer", // Vite handles actual output
+    "noEmit": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx" // Or "preserve"
+  },
+  "include": ["src_renderer/**/*.ts", "src_renderer/**/*.tsx", "src_renderer/electron.d.ts"],
+  "references": [{ "path": "../renderer-shared" }]
+}

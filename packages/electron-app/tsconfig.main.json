@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "outDir": "./dist_main",
+    "rootDir": "./src_main",
+    "lib": ["ES2022"],
+    "composite": true
+  },
+  "include": ["src_main/**/*.ts"],
+  "references": []
+}

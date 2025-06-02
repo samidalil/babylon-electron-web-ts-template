@@ -1,0 +1,20 @@
+{
+  "name": "@babylon-universal/renderer-shared",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "dev": "tsc -w",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^7.10.0",
+    "@babylonjs/loaders": "^7.10.0",
+    "@babylonjs/materials": "^7.10.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "rimraf": "^5.0.7"
+  }
+}

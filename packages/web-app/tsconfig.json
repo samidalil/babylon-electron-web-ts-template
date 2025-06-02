@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "noEmit": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx" // Or "preserve", Vite requires one
+  },
+  "include": ["src"],
+  "references": [{ "path": "../renderer-shared" }]
+}
